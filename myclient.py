@@ -8,7 +8,7 @@ import time
 from botocore.exceptions import ClientError
 
 ACCESS_KEY='AKIAZECOZT5B3A7F4PEZ'
-SECRET_KEY='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'
+SECRET_KEY=''
 client_id='cps2student' # just to treat the case of different clients, it could be managed more rigorously with appropriate libs (connected or connectionless). 
 
 def md5(fname):
