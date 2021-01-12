@@ -6,13 +6,12 @@ contact: a.a.zeddouri@gmail.com
 
 Requirements: 
 
-  *python3.
-  *boto3.
-  *ImageMagick 6.9.10-23
-  *Aws cli
+  *python3.  
+  *boto3.  
+  *ImageMagick 6.9.10-23  
+  *Aws cli  
   
-Debug environement :
-
+Debug environement :  
 *Ubuntu 20.04.1 LTS / Amazon Linux 
 
 # Files Description :
@@ -48,8 +47,8 @@ To test :
   2-Run the server ("python3 processing_image_server.py");
   3-Run the client on any remote machine ("python3 myclient.py").
   
-**Please note** : *the EC2 instance is kept up for testing puposes, the processing_image_server.py is runing continuously waiting for requests, 
+**Please note** : the EC2 instance is kept up for testing puposes, the processing_image_server.py is runing continuously waiting for requests, 
                 but might need a restart.
-              * several TimeOuts have been inserted on both server and client programs on Purpose to deal with the delay issues, please Be Patient.
+               several TimeOuts have been inserted on both server and client programs on Purpose to deal with the delay issues, please Be Patient.
               
 
