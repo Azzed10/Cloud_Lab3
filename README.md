@@ -5,10 +5,10 @@ contact: a.a.zeddouri@gmail.com
 Evaluation du Module Cloud Computing 
 
 Requirements: 
-*python3
-*boto3
-*ImageMagick 6.9.10-23
-*Aws cli
+  *python3
+  *boto3
+  *ImageMagick 6.9.10-23
+  *Aws cli
 
 Debug environement :
 *Ubuntu 20.04.1 LTS / Amazon Linux 
