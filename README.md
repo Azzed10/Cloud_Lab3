@@ -9,6 +9,7 @@ Requirements:
 -boto3.  
 -ImageMagick 6.9.10-23  
 -Aws cli  
+  
 Debug environement :  
  -Ubuntu 20.04.1 LTS / Amazon Linux 
 
