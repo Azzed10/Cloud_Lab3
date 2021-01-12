@@ -1,15 +1,14 @@
-# Cloud_Lab3
+# Cloud_Lab3 :Evaluation for the Cloud Computing module
 Azzeddine Abdallah ZEDDOURI
-#Ecole des Mines de Saint-Etienne (CPS2).
+Ecole des Mines de Saint-Etienne (CPS2).
 contact: a.a.zeddouri@gmail.com
-Evaluation du Module Cloud Computing 
+
 
 Requirements: 
   *python3
   *boto3
   *ImageMagick 6.9.10-23
   *Aws cli
-
 Debug environement :
 *Ubuntu 20.04.1 LTS / Amazon Linux 
 
