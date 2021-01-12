@@ -6,8 +6,8 @@ contact: a.a.zeddouri@gmail.com
 
 Requirements: 
 
-  *python3
-  *boto3
+  *python3.
+  *boto3.
   *ImageMagick 6.9.10-23
   *Aws cli
   
@@ -15,6 +15,7 @@ Debug environement :
 
 *Ubuntu 20.04.1 LTS / Amazon Linux 
 
+# Files Description :
 * connect.sh to connect to the EC2 instance via ssh
 * cle1.pem: ssh key to connect the EC2 instance
 * processing_image_server.py : the program hadling the requests, performing the image processing
@@ -24,6 +25,7 @@ Debug environement :
 * image.jpeg : a sample input image
 * 1.png a samle output image
 
+# Some Precisions :
 Operations performed by the EC2 instance are logged in json like format in the file 
 "ConvertImagesLog.txt", everytime this file exceeds 5MB size it's saverd in a S3 Bucket named "mylogbucket0"
 and a new log file is created.
@@ -41,6 +43,11 @@ The aws_access_key belongs to a IAM User with restricted privileges.
 The Security Group rules of the EC2 instance is are relatively weak for simplifing reasons, all Inbound TCP/22 communication are allowed,
 and all TCP/Any communication are allowed.
 
+To test : 
+  1-connect to the EC2 instance via SSH using "connect.sh" and "cle1.pem";
+  2-Run the server ("python3 processing_image_server.py");
+  3-Run the client on any remote machine ("python3 myclient.py").
+  
 **Please note** : *the EC2 instance is kept up for testing puposes, the processing_image_server.py is runing continuously waiting for requests, 
                 but might need a restart.
               * several TimeOuts have been inserted on both server and client programs on Purpose to deal with the delay issues, please Be Patient.
