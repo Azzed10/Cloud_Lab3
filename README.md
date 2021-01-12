@@ -5,12 +5,12 @@ contact: a.a.zeddouri@gmail.com**
 
 
 Requirements: 
-  *python3.  
-  *boto3.  
-  *ImageMagick 6.9.10-23  
-  *Aws cli  
+    *python3.  
+    *boto3.  
+    *ImageMagick 6.9.10-23  
+    *Aws cli  
 Debug environement :  
- *Ubuntu 20.04.1 LTS / Amazon Linux 
+   *Ubuntu 20.04.1 LTS / Amazon Linux 
 
 # Files Description :
 * connect.sh to connect to the EC2 instance via ssh
@@ -40,7 +40,7 @@ The aws_access_key belongs to a IAM User with restricted privileges.
 The Security Group rules of the EC2 instance is are relatively weak for simplifing reasons, all Inbound TCP/22 communication are allowed,
 and all TCP/Any communication are allowed.
 
-To test :   
+**To test :** 
   1-connect to the EC2 instance via SSH using "connect.sh" and "cle1.pem";  
   2-Run the server ("python3 processing_image_server.py");  
   3-Run the client on any remote machine ("python3 myclient.py").  
