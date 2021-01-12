@@ -1,4 +1,4 @@
-# Cloud_Lab3 :Evaluation for the Cloud Computing module
+# Lab3 : Evaluation for the Cloud Computing module
 Azzeddine Abdallah ZEDDOURI
 Ecole des Mines de Saint-Etienne (CPS2).
 contact: a.a.zeddouri@gmail.com
@@ -7,6 +7,7 @@ contact: a.a.zeddouri@gmail.com
 Requirements: 
   *python3
   *boto3
+  
   *ImageMagick 6.9.10-23
   *Aws cli
 Debug environement :
@@ -38,7 +39,7 @@ The aws_access_key belongs to a IAM User with restricted privileges.
 The Security Group rules of the EC2 instance is are relatively weak for simplifing reasons, all Inbound TCP/22 communication are allowed,
 and all TCP/Any communication are allowed.
 
-Please note : *the EC2 instance is kept up for testing puposes, the processing_image_server.py is runing continuously waiting for requests, 
+**Please note** : *the EC2 instance is kept up for testing puposes, the processing_image_server.py is runing continuously waiting for requests, 
                 but might need a restart.
               * several TimeOuts have been inserted on both server and client programs on Purpose to deal with the delay issues, please Be Patient.
               
