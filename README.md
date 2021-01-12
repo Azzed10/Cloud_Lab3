@@ -35,8 +35,7 @@ only the logs are stored permanently.
 the image processing is performed by ImageMagick 6.9.10-23, and consists of type 
 convertion and text tagging on the input image.
 
-aws credentials (aws_access_key_id, aws_secret_access_key) are hard coded, for simplifying reasons.
-The aws_access_key belongs to a IAM User with restricted privileges.
+The aws_access_key belongs to an IAM User with restricted privileges.
 
 The Security Group rules of the EC2 instance is are relatively weak for simplifing reasons, all Inbound TCP/22 communication are allowed,
 and all TCP/Any communication are allowed.
