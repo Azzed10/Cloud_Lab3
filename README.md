@@ -1,6 +1,6 @@
 # Cloud_Lab3
 Azzeddine Abdallah ZEDDOURI
-Ecole des Mines de Saint-Etienne (CPS2).
+#Ecole des Mines de Saint-Etienne (CPS2).
 contact: a.a.zeddouri@gmail.com
 Evaluation du Module Cloud Computing 
 
