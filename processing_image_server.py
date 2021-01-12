@@ -10,7 +10,7 @@ import pickle
 from botocore.exceptions import ClientError
 
 ACCESS_KEY='AKIAZECOZT5B3A7F4PEZ'
-SECRET_KEY='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'
+SECRET_KEY=''
  
 def md5(fname):
     hash_md5 = hashlib.md5()
